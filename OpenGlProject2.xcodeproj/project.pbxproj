@@ -3008,7 +3008,10 @@
 				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "\"/Users/mariakutran/Desktop/GLFW Deps/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mariakutran/Desktop/GLFW Deps/Glad/include\"",
+					"\"/Users/mariakutran/Desktop/GLFW Deps/include\"",
+				);
 				LIBRARY_SEARCH_PATHS = "\"/Users/mariakutran/Desktop/GLFW Deps/lib\"";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -3023,7 +3026,10 @@
 				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				GCC_PREPROCESSOR_DEFINITIONS = "";
-				HEADER_SEARCH_PATHS = "\"/Users/mariakutran/Desktop/GLFW Deps/include\"";
+				HEADER_SEARCH_PATHS = (
+					"\"/Users/mariakutran/Desktop/GLFW Deps/Glad/include\"",
+					"\"/Users/mariakutran/Desktop/GLFW Deps/include\"",
+				);
 				LIBRARY_SEARCH_PATHS = "\"/Users/mariakutran/Desktop/GLFW Deps/lib\"";
 				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
